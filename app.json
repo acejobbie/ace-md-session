@@ -1,0 +1,18 @@
+{
+  "name": "Ace-bug-bot",
+  "description": "whatsapp md bot build with nodejs",
+  "repository": "https://github.com/acejobbie/Ace-bug-bot",
+  "logo": "https://telegra.ph/file/c9f1fbd5b78d902762e5f.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+              }
+            ]
+}
